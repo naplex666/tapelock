@@ -1,0 +1,13 @@
+# Foundry
+lib/
+out/
+cache/
+broadcast/
+
+# Local-only keys — NEVER commit. Testnet demo keys, but still secret.
+deployer.json
+seller.json
+*.key.json
+
+# OS
+.DS_Store

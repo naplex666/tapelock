@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TapeLock — Milestone Escrow for TapeOut Circuits</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #111; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .card { border: 1px solid #ddd; border-radius: 10px; padding: 1rem; margin: 1rem 0; }
+  button { padding: .5rem .9rem; border-radius: 8px; border: 1px solid #111; background: #111; color: #fff; cursor: pointer; margin-right: .5rem; }
+  button.secondary { background: #fff; color: #111; }
+  input { padding: .45rem; border: 1px solid #ccc; border-radius: 6px; width: 100%; box-sizing: border-box; margin: .25rem 0 .6rem; }
+  label { font-size: .85rem; font-weight: 600; }
+  #log { white-space: pre-wrap; background: #f6f6f6; border-radius: 8px; padding: .8rem; font-size: .85rem; min-height: 3rem; }
+  .muted { color: #666; font-size: .9rem; }
+  code { background: #f0f0f0; padding: 0 .3rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>🔒 TapeLock</h1>
+<p>Milestone escrow for commissioned <b>TapeOut</b> circuits on <b>X Layer</b>.
+A buyer locks funds; the seller delivers a taped-out circuit; the escrow
+verifies the tape-out on-chain (TapeOut registry) and releases the funds.
+No delivery by the deadline → refund.</p>
+<p class="muted">Demo network: X Layer Testnet (chain 1952). Built for the
+X Layer TapeOut Accelerate hackathon. No real funds involved.</p>
+
+<div class="card">
+  <h2>Wallet</h2>
+  <p><span id="account">Not connected</span></p>
+  <button id="connectBtn">Connect wallet</button>
+  <button id="networkBtn" class="secondary">Switch to X Layer Testnet</button>
+</div>
+
+<div class="card">
+  <h2>1. Create escrow (buyer)</h2>
+  <label>Seller address</label>
+  <input id="seller" placeholder="0x...">
+  <label>Arbiter address</label>
+  <input id="arbiter" placeholder="0x...">
+  <label>Amount (testnet OKB)</label>
+  <input id="amount" value="0.05">
+  <label>TapeOut circuit ID</label>
+  <input id="circuitId" value="4246">
+  <label>Deadline (days from now)</label>
+  <input id="days" value="7">
+  <button id="createBtn">Create &amp; fund escrow</button>
+</div>
+
+<div class="card">
+  <h2>2. Deliver / release / refund</h2>
+  <label>Escrow ID</label>
+  <input id="escrowId" value="0">
+  <button id="deliverBtn">Deliver (seller)</button>
+  <button id="confirmBtn">Confirm release (buyer)</button>
+  <button id="claimBtn" class="secondary">Claim after window (seller)</button>
+  <button id="refundBtn" class="secondary">Refund after deadline (buyer)</button>
+  <button id="refreshBtn" class="secondary">Refresh status</button>
+  <p id="status" class="muted">No escrow loaded.</p>
+</div>
+
+<div class="card">
+  <h2>Verify a circuit</h2>
+  <label>Circuit ID</label>
+  <input id="verifyCircuit" value="4246">
+  <label>Owner address</label>
+  <input id="verifyOwner" placeholder="0x...">
+  <button id="verifyBtn" class="secondary">Check on TapeOut registry</button>
+  <p id="verifyResult" class="muted"></p>
+</div>
+
+<h2>Log</h2>
+<div id="log">Ready.</div>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.13.2/dist/ethers.umd.min.js"></script>
+<script src="./config.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
