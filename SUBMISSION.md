@@ -67,8 +67,20 @@ it points at the real factory/opener above.
 - Deployed + end-to-end proven on testnet 15 Nov 2026.
 - Demo app live on GitHub Pages; video ready (1:19, no audio).
 
-## Remaining step for the final submit (via main chat)
-1. Fill the official form at web3.okx.com/xlayer/build-x-series with the
-   write-up above + the YouTube link + repo/demo links.
-2. Submit before **7 Dec 2026 23:59 UTC (8 Dec 06:59 WIB)**.
-   (Video already public on YouTube since 22 Nov 2026 — no further step needed from Zec.)
+## ✅ SUBMITTED — 22 Nov 2026 21:16 WIB
+- Form: "OKX X Layer TapeOut Accelerate: Tapeout Registration"
+  (Google Form, linked from web3.okx.com/xlayer/build-x-series)
+- Signed in as pojokkanan29@gmail.com; submitted well before the
+  **7 Dec 2026 23:59 UTC** deadline.
+- Confirmation page: "Jawaban Anda telah direkam." (Your response has been
+  recorded.) Google Forms shows no submission ID/reference.
+- Fields: Fuad Hasan, TapeLock, solo (1), pojokkanan29@gmail.com,
+  nationality Indonesian, Telegram @Zec3on, X @zec3on, logo
+  `tapelock-logo-256.png`, repo + demo video (YouTube, Pojok Kanan) + demo site.
+- No payment made, no ID/KYC step done (identity verification only applies
+  to winners at payout, per the contest rules).
+
+## What remains
+- Judging / results: winners announced after the deadline (no date given
+  on the form). Watch the contact email (pojokkanan29@gmail.com) and
+  Telegram @Zec3on for follow-ups from the OKX team.
