@@ -3,7 +3,8 @@
 ## Links
 - Repo: https://github.com/naplex666/tapelock
 - Demo app: https://naplex666.github.io/tapelock/app/
-- Demo video: `video/tapelock-demo.mp4` (1:19, silent) — upload to YouTube (public) and paste the link in the form
+- Demo video (YouTube, public, 22 Nov 2026): https://www.youtube.com/watch?v=EX-Hf7rIfCA
+  (file: `video/tapelock-demo.mp4`, 1:19, silent; channel Fuad Hasan (Naplex))
 - X Layer testnet explorer: https://web3.okx.com/explorer/x-layer-testnet
 
 ## What it is
@@ -65,8 +66,8 @@ it points at the real factory/opener above.
 - Deployed + end-to-end proven on testnet 15 Nov 2026.
 - Demo app live on GitHub Pages; video ready (1:19, no audio).
 
-## Remaining steps for the final submit (needs Zec)
-1. Upload `video/tapelock-demo.mp4` to YouTube (public) from Zec's account.
-2. Fill the official form at web3.okx.com/xlayer/build-x-series with the
+## Remaining step for the final submit (via main chat)
+1. Fill the official form at web3.okx.com/xlayer/build-x-series with the
    write-up above + the YouTube link + repo/demo links.
-3. Submit before **7 Dec 2026 23:59 UTC (8 Dec 06:59 WIB)**.
+2. Submit before **7 Dec 2026 23:59 UTC (8 Dec 06:59 WIB)**.
+   (Video already public on YouTube since 22 Nov 2026 — no further step needed from Zec.)
