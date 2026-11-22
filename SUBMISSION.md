@@ -3,8 +3,9 @@
 ## Links
 - Repo: https://github.com/naplex666/tapelock
 - Demo app: https://naplex666.github.io/tapelock/app/
-- Demo video (YouTube, public, 22 Nov 2026): https://www.youtube.com/watch?v=EX-Hf7rIfCA
-  (file: `video/tapelock-demo.mp4`, 1:19, silent; channel Fuad Hasan (Naplex))
+- Demo video (YouTube, public, 22 Nov 2026): https://www.youtube.com/watch?v=5Lvn3qxlvNY
+  (file: `video/tapelock-demo.mp4`, 1:19, silent; channel Pojok Kanan, @pojokkanan1405.
+  First upload went to the wrong channel @pojokkanan8937 by mistake and was deleted.)
 - X Layer testnet explorer: https://web3.okx.com/explorer/x-layer-testnet
 
 ## What it is
